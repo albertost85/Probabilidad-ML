@@ -1,0 +1,41 @@
+---
+title: "Mis Notas"
+author: "Autor del Documento"
+output:
+  pdf_document:
+    latex_engine: xelatex
+    keep_tex: true
+geometry: margin=1cm, paperwidth=21cm, paperheight=14.8cm
+fontsize: 10pt
+header-includes:
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \fancyhf{}
+  - \fancyhead[L]{\small \leftmark}
+  - \fancyhead[R]{\small \rightmark}
+  - \fancyfoot[L]{\small Información Adicional}
+  - \fancyfoot[C]{}
+  - \fancyfoot[R]{\small Página \thepage}
+  - \renewcommand{\headrulewidth}{0.4pt}
+  - \renewcommand{\footrulewidth}{0.4pt}
+  - \renewcommand{\sectionmark}[1]{\markboth{\author}{#1}}
+  - \renewcommand{\subsectionmark}[1]{\markright{\MakeUppercase{\title}}}
+---
+\title{}
+\author{}
+\date{}
+
+\maketitle
+# Nota Principal
+
+Esta es la información principal que quiero incluir en la cara frontal del documento.
+
+\newpage
+
+## Referencias
+
+Esta es la información que quiero incluir en la cara posterior del documento.
+
+### Referencias Bibliográficas
+- Autor, A. (Año). Título del libro. Editorial.
+- Autor, B. (Año). Título del artículo. Nombre de la revista, volumen(número), páginas.

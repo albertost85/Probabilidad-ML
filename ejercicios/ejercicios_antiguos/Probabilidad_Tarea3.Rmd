@@ -1,0 +1,106 @@
+---
+title: 'Probabilidad:  Tarea 3'
+author: "asimon"
+output:
+  pdf_document:
+  number_sections: yes
+---
+# Probabilidad. Tarea 3
+## 1
+Dos sucesos A y B disjuntos, ¿son necesariamente independientes?
+
+Si son disjuntos, P(A∩B)=0, y sólo son independientes si P(A)=0 ó P(B) = 0
+
+## 2
+Dos sucesos A y B independientes, ¿son necesariamente disjuntos?
+
+Sólo son disjuntos so P(A) ó P(B) = 0.
+
+## 3
+∅ y un suceso cualquiera A, ¿son necesariamente independientes?
+
+P(O∩A)=0=P(O)P(A), si.
+
+## 4
+Ω y un suceso cualquiera A, ¿son necesariamente independientes?
+
+P(Omega) *P(A) = P(A)
+P(Omega ∩ A) = P(A)
+Si.
+
+## 5
+¿Qué condiciones se tienen que dar para que un suceso A sea independiente de si mismo?
+
+P(A∩A)=P(A), P(A)=P(A)P(A) si P(A)=1, suceso seguro.
+
+## 6
+Una moneda no trucada se lanza al aire 2 veces Consideremos los siguientes sucesos:
+
+• A: Sale una cara en la primera tirada.
+
+• B: Sale una cara en la segunda tirada.
+
+¿Son los sucesos A y B independientes?
+
+P(A)=0.5, P(B)=0.5, P(A∩B)=1/4 = P(A)*P(B) Si
+
+## 7
+Una urna contiene 4 bolas numerades con los números 1, 2, 3 y 4, respectivamente. Se extraen dos bolas con reposición. Sea A el suceso que la primera bola extraida tenga un 1 marcado y sea B el suceso que la segunda bola extraida tenga un 1 marcado.
+
+• ¿Se puede decir que A y B son independientes?
+
+• ¿Y si el experimento fuera sin reposición?
+
+P(A) = 1/4, P(B)=1/4 , P(A)*P(B)=1/16 = P(A∩B)
+
+En el segundo caso:
+
+P(B)=P(A)P(B|A)+P(Ac)P(B|Ac) = 1/4 * 0/3 + 3/4 * 1/3 =1/4
+P(A∩B) = P(B|A)P(A)=0
+No son independientes
+
+## 8
+Sea Ω un espacio muestral y A, B, C tres sucesos. Probad que
+
+- Si A y B son independientes, también lo son A y B^c
+
+- Si A,B,C son independientes, también lo son A,B y C^c
+
+- ¿Es cierto que si A,B,C son independientes, también lo son A,B^c y C^c? ¿Y A^c, B^c y C^c? En caso de que la respuesta sea negativa, da un contraejemplo donde la propiedad falle.
+
+P(A) P(B) = P(A∩B) (enunciado)
+
+
+P(A)P(Bc) = P(A)-P(A)P(B) = P(A)-P(A∩B)
+                   = P(A)-P(B|A)P(A)=P(A) - (1-P(Bc|A)P(A)) = P(A) (1-1+P(Bc|A) = P(A)P(Bc|A)
+
+P(A)P(B)P(Cc) = P(A)P(B) - P(A)P(B)P(C) = P(A∩B) - P(A∩B∩C) = P(A∩B∩Cc) Se cumple
+
+P(A)P(Bc)P(Cc) = P(A)P(Bc) - P(A)P(Bc)P(C) = (ya se ha demostrado) P(A∩Bc) - P(A∩Bc∩C) = P(A∩Bc∩Cc) Se cumple
+
+P(Ac)P(Bc)P(Cc) = (1-P(A))P(Bc)P(Cc) = P(Bc)P(Cc)  - P(A)P(Bc)P(Cc) = (demostrado linea anterior) P(Cc) - P(B)P(Cc) - P(A∩Bc∩Cc) = (demostrado segunda línea) P(Cc) - P(B ∩ Cc) - P(A∩Bc∩Cc) = P(Bc ∩ Cc) - P(A∩Bc∩Cc) = P(Ac∩Bc∩Cc)
+
+## 9
+Dos empresas A y B fabrican el mismo producto. La empresa A tiene un 2% de productos defectuosos mientras que la empresa B tiene un 1%.
+
+Un cliente recibe un pedido de una de las empresas (no sabe cuál) y comprueba que la primera pieza funciona. Si suponemos que el estado de las piezas de cada empresa es independiente, ¿cuál es la probabilidad de que la segunda pieza que pruebe sea buena?
+
+Comprobad que el estado de las dos piezas no es independiente, pero en cambio es condicionalmente independiente dada la empresa que las fabrica
+
+D -> Pieza defectuosa
+A -> Fabricado por A
+B -> Fabricado por B
+P(D|A)=0.02
+P(D|B)=0.01
+
+P(A|Dc) = P(Dc|A)P(A)/P(B), probabilidad de que el pedido sea de A, dado que la pieza funciona.
+
+Falta información sobre la probabilidad de que el pedido venga de A o de B, no se puede continuar.
+
+## 10
+Encuentra un ejemplo de tres sucesos A,B,C tales que A y B sean independientes, pero en cambio no sean condicionalmente independientes dado C.
+
+Sucesos de lanzar dos dados y sumar
+A = {2, 4, 6, 8, 10, 12} B = {2, 3, 4,5,6,7} C = {2, 4}
+P(A)P(B) = 1/2 * 1/2 = 1/4, P(A∩B)=P({2,4,6})=1/4
+P(A)P(B)P(C)=1/2*1/2*1/4 = 1/16. P(A∩B∩C) = 1/6

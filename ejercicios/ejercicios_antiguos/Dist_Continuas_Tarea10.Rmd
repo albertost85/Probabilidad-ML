@@ -1,0 +1,59 @@
+Esta vez tenéis que leer información adicional  en internet sobre tres nuevas distribuciones Bendford, Pareto y Gumbell.
+
+La primera modela una distribución del primer  dígito, la segunda modela la distribución de ingresos (y vale para definir el índice de de igualdad de Gini) y la Gumbel aparece en  la distribución de los llamados valores extremos.
+
+Preguntas de esta tarea
+## 1
+La ley de Benford es una curiosa distribución de probabilidad que suele aparecer en la distribución del primer
+
+dígito de las cantidades registradas en contabilidades y en observaciones científicas o datos numéricos. La
+
+variable X sigue una distribución discreta Benford con dominio D X = {1, 2, 3, 4, 5, 7, 8, 9} son 9 dígitos (se
+
+elimina el cero) y sin función de probabilidad es
+
+P X (x) = P (X = d) = log(d + 1) − log(d).
+
+• a) Calcular la media y la varianza de X.
+
+• b) Calcular la función de distribución de X.
+
+• c) ¿Cuál es el dígito más frecuente (moda)?
+
+• d) Construid con R las funciones de probabilidad y de distribución de X.
+
+• e) Dibujar con R las funciones del apartado anterior.
+
+
+
+Consulad el pdf "Tema_3_-_Notables_mas_notables.pdf" de los problemas
+
+## 2 Distribución de Pareto (Power law)
+
+Es una distribución que aparece en muchos ámbitos. Consideremos el económico. Supongamos que en un
+
+gran país consideramos la población activa económicamente; desde el más humilde becario al directivo más
+
+adinerado.
+
+Escogemos un individuo al azar de esta población y observamos la variable X = sus ingresos en euros (digamos
+
+que anuales)...................................
+
+
+
+Consulad el pdf "Tema_3_-_Notables_mas_notables.pdf" de los problemas
+
+## 3 Distribución de Gumbel (teoría del valor extremo).
+
+La distribución de Gumbel aparece en variables que miden lo que se llama un valor extremo: precipitación
+
+máxima de lluvia, tiempo máximo transcurrido entre dos terremotos, o en métodos de machine learning el
+
+máximo de las puntuaciones de una algoritmo; por ejemplo comparar pares de objetos (fotos, proteínas, etc.).
+
+Una variable aleatoria sigue una ley de distribución Gumbel (de TIPO I) si su distribución es:................
+
+
+
+Consulad el pdf "Tema_3_-_Notables_mas_notables.pdf" de los problemas

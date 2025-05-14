@@ -1,0 +1,11 @@
+Pregunta 1:
+Sea X una variable aleatoria continua tal que su función de densidad f_X vale una cierta constante k para x en [0,1/4] y en [3/4,1] y 0 en caso contrario. ¿Cuál es el valor de la constante k?
+
+Pregunta 2:
+Sea X una variable continua tal que su función de densidad vale una cierta constante k para x en [0,1/n] y [1-1/n,1] y 0 en caso contrario, para un cierto entero n mayor o igual que 2. ¿Cuánto vale el valor de la función de distribución de X en x=1/2?
+
+Pregunta 3:
+Sea X una variable aleatoria continua tal que su función de densidad f_X presenta simetría alrededor de un cierto valor a. O sea, que para todo t valor real, tenemos que   f_X(a-t)=f_X(a+t). ¿Cuánto vale el valor esperado de X?
+
+Pregunta 4:
+Sea X una variable continua tal que su función de densidad f_X vale una cierta constante k para x en [0,1/n] y [1-1/n,1] y 0 en caso contrario, para un cierto entero n mayor o igual que 2. ¿Cómo se comporta la varianza de X en función de n?

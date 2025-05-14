@@ -1,0 +1,164 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+  10pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1cm, paperwidth=21cm, paperheight=14.8cm]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{\thepage}
+\fancyfoot[L]{}
+\fancyfoot[R]{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Mis Notas},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Mis Notas}
+\author{}
+\date{\vspace{-2.5em}}
+
+\begin{document}
+\maketitle
+
+\hypertarget{no-se}{%
+\subsection{1 no se}\label{no-se}}
+
+El tiempo X que utiliza un comercial para exponer un producto cuando LO
+VENDE sigue, aproximadamente,
+
+una distribución normal con parámetros mu =3
+
+minutos 45 segundos y sigma = 10 segundos.
+
+\begin{verbatim}
+a. ¿Cuál es la probabilidad de que  consiga la venta  en menos de 4 minutos? 
+
+b. ¿Y en más de 3.5 minutos?
+\end{verbatim}
+
+\hypertarget{section}{%
+\subsection{2}\label{section}}
+
+El tiempo X que utiliza un comercial para exponer un producto cuando NO
+VENDE sigue, aproximadamente, una distribución normal con parámetros
+mu=2 y sigma=0.8.
+
+\begin{verbatim}
+a. ¿Cuál  es el cuantil  0.95 de esta variable? Interpretarlo en el sentido de tiempo perdido por el comercial.
+
+b. ¿Cuál es  el tiempo perdido   en el 40% de las llamadas más cortas?
+\end{verbatim}
+
+\hypertarget{section-1}{%
+\subsection{3}\label{section-1}}
+
+Un centro de atención telefónica por voz (call center) recibe por
+termino medio 102 llamadas por hora. Suponed que el tiempo entre
+llamadas consecutivas es exponencial.
+
+\begin{verbatim}
+a. Sea X el tiempo entre dos llamadas consecutivas ¿cuál es la distribución de X?
+
+b. Calcular la probabilidad que pasen al menos 2.5 minutos hasta recibir la primera llamada.
+
+c. Calcular la probabilidad que pasen menos de  3 minutos hasta recibir  la siguiente llamada.
+
+d. Calcular la esperanza y la varianza de X.
+\end{verbatim}
+
+\hypertarget{section-2}{%
+\subsection{4.}\label{section-2}}
+
+Sea X una variable aleatoria normal con parámetros mu=1 y sigma=1.
+Calculad el valor de b tal que P((X-1)\^{}2\textless= b)=0.1.
+
+\hypertarget{section-3}{%
+\subsection{5}\label{section-3}}
+
+Sea Z una variable aleatoria N(0,1). Calcular P((Z-1/4)\^{}2
+\textgreater1/16).
+
+\hypertarget{section-4}{%
+\subsection{6}\label{section-4}}
+
+Un contratista de viviendas unifamiliares de lujo considera que el coste
+en euros de una contrata habitual es una variables X que sigue una
+distribución N(mu=600000,sigma=60000)
+
+\begin{verbatim}
+a.  ¿Cuál es la probabilidad de que  el coste del edificio esté entre 560000 y 660000 euros?
+
+b. 0.2 es la probabilidad de que el coste de la vivienda supere ¿qué cantidad?
+
+c. ¿Cuál es el coste mínimo del  5% de las casa más caras?
+\end{verbatim}
+
+\hypertarget{section-5}{%
+\subsection{7}\label{section-5}}
+
+Si X está distribuida uniformemente en (0,2) e Y es una variable
+exponencial con parámetro lambda. Calcular el valor de lambda tal que
+P(X\textless1)=P(Y\textless1).
+
+\end{document}

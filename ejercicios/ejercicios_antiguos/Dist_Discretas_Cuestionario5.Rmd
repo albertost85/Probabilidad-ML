@@ -1,0 +1,30 @@
+Pregunta 1:
+Decir cuáles de los siguientes experimentos aleatorios se pueden modelar por una distribución binomial:
+
+1. Lanzamiento de un dado un número determinado de veces y contar las veces que sale la cara 6.
+
+2. La probabilidad de que llueva un día del mes de enero es p. Escogemos una semana del mes de enero y contamos cuántos días ha llovido.
+
+3. En una aula hay 30 estudiantes. Escogemos 10 estudiantes y sin repetirlos, los hacemos salir a la pizarra. Se entiende que cada elección es independiente de las demás. Contamos cuántas chicas hemos elegido.
+
+
+
+
+Pregunta 2:
+Decir cuáles de los siguientes experimentos aleatorios se pueden modelar por una distribución geométrica:
+
+1. Lanzamiento de un dado un número determinado de veces y contar las veces hasta que sale la cara 6.
+
+2. La probabilidad de que llueva un día del mes de enero es p. A partir del 1 de enero, contamos cuántos días hay sin llover hasta el primer día en que llueva.
+
+3. En una aula hay 30 estudiantes. Escogemos 10 estudiantes y sin repetirlos, los hacemos salir a la pizarra. Se entiende que cada elección es independiente de las demás. Contamos cuántas chicos van saliendo hasta que salga la primera chica.
+
+Pregunta 3:
+Nos dicen que se modela el nombre de vehículos que llegan al aparcamiento de la universidad entre las 8 y las 9 de la mañana por una variable de Poisson de media 60 vehículos. ¿Cuál sería el valor del parámetro lambda de la distribución de Poisson si queremos modelar el número de vehículos que llegan al aparcamiento de la universidad entre las 8.30 y las 8.40?
+
+Pregunta 4:
+Consideremos una urna con 20 bolas blancas y 10 bolas negras. Hacemos 15 extracciones y contamos el número de bolas blancas extraídas. Sea X la variable aleatoria que nos da dicho número de bolas blancas. ¿Cuál es la distribución y el dominio de X?
+
+
+
+

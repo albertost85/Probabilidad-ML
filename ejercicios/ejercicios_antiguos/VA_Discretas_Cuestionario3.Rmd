@@ -1,0 +1,16 @@
+Pregunta 1:
+Consideremos una variable aleatoria discreta cuyo dominio es el conjunto {0,1,2,...,n} para un cierto n. Suponemos que la función de probabilidad en cada valor del dominio es el mismo. ¿Cuál es el valor de la función de probabilidad en un valor cualquiera del dominio?
+1/(n+1)
+
+Pregunta 2:
+Consideremos una variable aleatoria discreta X cuyo dominio es el conjunto {0,1,...,n} para un cierto n. ¿Cuánto vale la función de distribución de X en el punto -1? ¿Y en el punto (n+2)?
+F_X(-1)=0, F_X(n+2)=1.
+
+Pregunta 3:
+Sea X una variable aleatoria discreta con dominio {x1,..,xn}. Sea xk un valor del dominio tal que la función de distribución de X en xk vale 1/2, o sea, F_X(xk)=1/2. ¿Es cierto que el valor medio de X es xk?
+
+No tiene por qué pasar. Se pueden encontrar contraejemplos donde cicha condición falle.
+
+Pregunta 4:
+Consideremos una variable aleatoria discreta X con varianza 3. ¿Cuánto vale la varianza de la variable -3X?
+27

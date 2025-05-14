@@ -1,0 +1,17 @@
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\renewcommand{\sectionmark}[1]{\markboth{#1}{}}
+\renewcommand{\subsectionmark}[1]{\markright{\MakeUppercase{#1}}}
+\AtBeginDocument{
+  \let\oldmaketitle\maketitle
+  \renewcommand{\maketitle}{}
+}
+
+\fancyhf{}
+\fancyhead[L]{\small \leftmark}
+\fancyhead[R]{\small \rightmark}
+\fancyfoot[L]{\small Información Adicional:}
+\fancyfoot[C]{}
+\fancyfoot[R]{\small Página \thepage}

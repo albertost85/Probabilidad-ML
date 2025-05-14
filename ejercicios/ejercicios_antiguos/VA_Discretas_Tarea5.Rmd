@@ -1,0 +1,83 @@
+# VA Discretas
+En esta clase vamos a hacer los ejercicios del Tema 2 correspondientes al apartado de Variables Aleatorias Discretas. Los enunciados los puedes encontrar en el PDF adjunto o bien en github en la sección de ejercicios
+
+Preguntas de esta tarea
+## 1
+Hay 10 estudiantes inscritos en una clase de Estadística, de entre los cuales 3 tienen 19 años, 4 tienen 20 años, 1 tiene 21 años, 1 tiene 24 años y 1 tiene 26 años. De esta clase se seleccionan dos estudiantes sin reposición. Sea X la edad media de los dos estudiantes seleccionados. Hallar la función de probabilidad para X
+
+10 estudiantes combinados a 2, 45 combinaciones.19 años. 3 combinaciones. 3/45.19.5 años. 12 combinaciones. 12/45.20 años. 9 combinaciones. 9/45.20.5 años. 4 combinaciones. 4/45.21 años. 1 combinación. 1/45.22.5 años. 1 combinación. 1/45.23 años. 4 combinaciones. 4/45.
+
+25 años. 1 combinación. 1/45.
+
+## 2
+Verificar que la función del ejercicio 2 del PDF es una función de distribución  y responder a las cuestiones que ahí se preguntan.
+
+Sagisface las propiedades:
+No decreciente
+F_W(t) = 1 cuando t -> \infty.
+F_W(t) = 0 cuando t -> -\infty
+Toma valores entre 0 y 1
+Es contínua por la derecha.
+
+P(3<W\leq 5) = F_W(5) - F_W(3+) = 2/3-1/3 = 1/3
+
+## 3
+Calcula la función de distribución del ejercicio 3 del PDF
+F_Z(t)={ 0, si x<0 ; 1/3 si 0 \leq x < 1; 2/3 si 1 \leq x < 2; 1 si x \geq 2;
+
+## 4
+Escribe la solución a las dos preguntas del ejercicio 4 del PDF
+
+Si n es el conjunto de números naturales y tiende a infinito, no existe un valor de k que satisfaga la función de distribución de X.
+En caso contrario, 
+k(1+2+…+n)=1
+k = 2/n(n+1)
+
+F_X(i) = { 0, si i < 1; 2/(n(n+1))· i(i+1)/2, si 1 \leq i < n-1; 1 si i \geq n
+* o F_X(i) = { 0, si i < 1; 2/(n(n+1))· i(i+1)/2, si 1 \leq i \leq n 
+
+Respuesta ingenieril: si n es suficientemente grande, aproximadamente la mitad.
+
+Si n es par:
+P(X par) = k*1*2 + k*2*2 + ... + k*(n/2)*2 = k * n/2 * (n/2 + 1) 
+
+Si n es impar:
+P(X par) = k*1*2 + k*2*2 + ... + k*((n-1)/2)*2 = k * (n-1)/2 * ((n-1)/2 + 1)  
+
+## 5
+Un examen tipo test consta de cinco preguntas con tres posibles opciones cada una. Un alumno contesta al azar las cinco cuestiones. Suponiendo que cada respuesta acertada vale dos puntos, hallar la distribución de número de puntos obtenidos por el alumno.
+
+El examen se puede contestar de 2^5 = 32 maneras distintas 
+
+0 puntos, todo mal = 1 posibilidad de 32=  0.031
+
+2 puntos, 1 acierto = 5 posibilidades de 32 = 0.156
+
+4 puntos, 2 aciertos = 10 posibilidades de 32 = 0.316
+
+6 puntos, 3 aciertos = 10 posibilidades de 32 = 0.316
+
+8 puntos, 4 aciertos = 5 posibilidades de 32 = 0.156
+
+10 puntos, 5 aciertos = 1 posibilidad de 32 = 0.031La función de distribución para la variable aleatoria X (puntuación) en función de la puntuación m.F_X(m)= 0, si m < 0;  0.031, si 0 \leq m < 2; 0.187 , si 2 \leq m < 4; 0.502 , si 4 \leq m < 6; 0.816 , si 6 \leq m < 8; 0.969 , si 8 \leq m < 10; 1 , si m \geq 1
+## 6
+Continuamos con el ejercicio anterior pero ahora suponemos que restamos una cierta cantidad por respuesta incorrecta. Suponiendo que el examen tiene n preguntas, cada pregunta tiene k posibles respuestas, y que cada pregunta acertada vale 1 punto, ¿qué cantidad hay que restar a cada pregunta para que la esperanza de la nota de una pregunta contestada al azar sea 0?
+
+A diferencia del ejemplo, aquí el alumno responde a todas las preguntas.
+
+E(X)=1/k - p(k-1)/k = 0 -> p = 1/(k-1)
+## 7
+Repetir el ejercicio anterior pero ahora suponiendo que restamos a cada pregunta la cantidad obtenida en el caso en que éste se responga de forma errónea
+
+Ahora la penalización es de 1 punto, y la respuesta acertada sigue valiendo 2 puntos. Se utiliza la misma fórmula pero se recalcula la nota obtenida (asumiendo que todas las preguntas se responden, bien o mal, al azar).-5 puntos, todo mal = 1 posibilidad de 32=  0.031
+
+-2 puntos, 1 acierto = 5 posibilidades de 32 = 0.156
+
+1 puntos, 2 aciertos = 10 posibilidades de 32 = 0.316
+
+4 puntos, 3 aciertos = 10 posibilidades de 32 = 0.316
+
+7 puntos, 4 aciertos = 5 posibilidades de 32 = 0.156
+
+10 puntos, 5 aciertos = 1 posibilidad de 32 = 0.031La función de distribución para la variable aleatoria X (puntuación) en función de la puntuación m.F_X(m)= 0, si m < -5;  0.031, si -5 \leq m < -2; 0.187 , si -2 \leq m < 1; 0.502 , si 1 \leq m < 4; 0.816 , si 4 \leq m < 7; 0.969 , si 7 \leq m < 10; 1 , si m \geq 1
+

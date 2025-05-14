@@ -1,0 +1,8 @@
+Preguntas de esta tarea
+Verifica que la función del ejercicio 1 del PDF es una función de distribución. Responde a las preguntas del ejercicio y calcula además su esperanza y varianza.
+
+Verifica que la función del ejercicio 2 del PDF es una densidad. Responde a las preguntas del ejercicio y calcula además su esperanza y varianza.
+
+Verifica que la función del ejercicio 3 del PDF es una función de distribución. Responde a las preguntas del ejercicio y calcula además su esperanza y varianza.
+
+Verifica que la función del ejercicio 4 del PDF es una densidad. Responde a las preguntas del ejercicio y calcula además su esperanza y varianza.

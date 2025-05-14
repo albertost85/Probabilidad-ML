@@ -1,0 +1,13 @@
+Pregunta 1:
+En una clase, el 30% de los alumnos han aprobado Matemáticas y el 80% han aprobado Historia. ¿Es posible que se den estos resultados?
+Si es posible lo que indica que hay alumnos que han aprobado las dos asignaturas
+Pregunta 2:
+Si dos sucesos A y B son independientes y P(B) no es cero, ¿cuánto vale P(A|B)? (probabilidad del suceso A condicionado al suceso B)
+P(A)
+Pregunta 3:
+¿Qué es un falso negativo en un test o diagnóstico?
+Es cuando un sujeto tiene la enfermedad y el test le da negativo
+lidad para Machine Learning y Big Data con R y Python
+Pregunta 4:
+Consideremos el conjunto de los números enteros. Sea A el conjunto de los pares, B, el conjunto de los múltiplos de 3 y C todos los números enteros que no están ni en A ni en B. ¿Forman los conjuntos A, B y C una partición del conjunto de los números enteros?
+No, ya que la intersección de A y B no es vacía.

@@ -1,0 +1,12 @@
+Pregunta 1:
+Dados dos conjuntos A y B no vacíos sabemos que A unión B es A. ¿Qué podemos afirmar de A y B?
+Que el conjunto B está incluído en el conjunto A.
+Pregunta 2:
+Dados dos conjuntos no vacíos A y B, la intersección de A con B es A. ¿Qué podemos decir de los conjuntos A y B?
+Que A está incluído en B
+Pregunta 3:
+Consideremos todas las permutaciones que podemos hacer con los números 1,2,...,n. ¿Es cierto que el número de permutaciones que empiezan en 1 coincide con el número de permutaciones que acaba en 1?
+Sí, siempre.
+Pregunta 4:
+Consideremos las palabras siguientes: MULETA y MULATA. Si hacemos todas las permutaciones con cada una de las palabras, ¿con qué palabra habrá más permutaciones?
+Con la palabra MULETA ya que no se repite ninguna letra-
